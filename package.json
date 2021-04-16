@@ -1,0 +1,17 @@
+{
+  "name": "backend-commerce",
+  "version": "1.0.0",
+  "description": "Backend to e-commerce website",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
