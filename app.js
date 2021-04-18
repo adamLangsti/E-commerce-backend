@@ -4,7 +4,7 @@ const app = express();
 const productsList = require('./routes/products');
 
 app.use(cors());
-app.use(express.json());
+
 app.use('/products', productsList);
 // app.get('/', (req, res) => {
 //     res.status(200).send('Home Page');
