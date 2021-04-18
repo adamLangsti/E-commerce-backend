@@ -1,7 +1,11 @@
-const { products } = require('../products');
+const { categories } = require('../data');
 
-const getProducts = (req, res) => {
-    res.status(200).send(products);
+const getCategories = (req, res) => {
+    res.status(200).send(categories);
 };
 
-module.exports = { getProducts };
+const getProductId = (req,res) => {
+    res.status(200).send
+}
+
+module.exports = { getCategories };
