@@ -1,4 +1,4 @@
-const { subProducts } = require('../subProducts');
+const { subProducts } = require('../components/subProducts');
 
 const getSubProducts = (req, res) => {
     res.status(200).send(subProducts);
