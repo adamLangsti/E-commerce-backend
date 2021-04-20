@@ -1,3 +1,12 @@
+// HOME DATA
+const home = [
+    {
+        id: 99,
+        header: `Greetings dear customer. ƎE-Commerce was founded back in 1996 and has since grown to become one of the
+        largest software companies in the world, rivalling the likes of Microsoft, Apple and Oracle.`,
+    },
+];
+
 // MAIN CATEGORIES
 const categories = [
     {
@@ -84,8 +93,9 @@ const laptops = [
         image:
             'https://images.unsplash.com/photo-1582203422342-1541a90a0103?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         price: `$639`,
-        desc: `Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels.
-        It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.`,
+        desc: `ASUS is a Taiwan-based, multinational computer hardware and consumer electronics company that was established in 1989.
+        Dedicated to creating products for today’s and tomorrow’s smart life, ASUS is the world’s No. 1 motherboard and gaming brand
+        as well as a top-three consumer notebook vendor.`,
     },
     {
         id: 10,
@@ -93,8 +103,8 @@ const laptops = [
         image:
             'https://images.unsplash.com/photo-1578598335941-2ddafa759de2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80',
         price: `$899`,
-        desc: `Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels.
-        It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.`,
+        desc: `Lenovo is one of the world's leading personal technology companies, producing innovative PCs and mobile internet devices. Now, #286 on fortune 500 list,
+        Lenovo is the world's largest PC vendor and fourth largest smartphone company.`,
     },
     {
         id: 11,
@@ -102,8 +112,9 @@ const laptops = [
         image:
             'https://images.unsplash.com/photo-1589561084283-930aa7b1ce50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80',
         price: `$829`,
-        desc: `Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels.
-        It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.`,
+        desc: `HP (Hewlett-Packard) is a multinational information technology (IT) company that sells hardware, software and related
+        business services. ... The company's corporate culture is encapsulated in an approach known as the HP Way, a set of values
+        designed to foster innovation, respect for individuals and value for customers.`,
     },
     {
         id: 12,
@@ -111,9 +122,10 @@ const laptops = [
         image:
             'https://images.unsplash.com/photo-1525971977907-20d22da82d6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1260&q=80',
         price: `$549`,
-        desc: `Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels.
-        It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.`,
+        desc: `1.0 Acer company profile. Acer Incorporated is a Taiwan-based multinational electronics manufacturer. Its product
+        includes laptops, desktops as well as servers and storage, personal digital assistance (PDA), peripherals, peripherals
+        and e-business services for government, business, education, and home users.`,
     },
 ];
 // LAPTOP BRAND
-module.exports = { categories, laptops };
+module.exports = { categories, laptops, home };
