@@ -2,7 +2,7 @@
 const home = [
     {
         id: 99,
-        header: `Greetings dear customer. ƎE-Commerce was founded back in 1996 and has since grown to become one of the
+        header: `Greetings customer. ƎE-Commerce was founded back in 1996 and has since grown to become one of the
         largest software companies in the world, rivalling the likes of Microsoft, Apple and Oracle.`,
     },
 ];
@@ -15,7 +15,6 @@ const categories = [
         image:
             'https://images.unsplash.com/photo-1507764923504-cd90bf7da772?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80',
         price: 39.95,
-        desc: `I'm baby direct trade farm-to-table hell of, YOLO readymade raw denim venmo whatever organic gluten-free kitsch schlitz irony af flexitarian.`,
         link: 'laptops',
     },
     {
@@ -24,7 +23,6 @@ const categories = [
         image:
             'https://images.unsplash.com/photo-1598986646512-9330bcc4c0dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         price: 29.98,
-        desc: `I'm baby direct trade farm-to-table hell of, YOLO readymade raw denim venmo whatever organic gluten-free kitsch schlitz irony af flexitarian.`,
         link: 'stationary',
     },
     {
@@ -33,7 +31,6 @@ const categories = [
         image:
             'https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
         price: 10.99,
-        desc: `I'm baby direct trade farm-to-table hell of, YOLO readymade raw denim venmo whatever organic gluten-free kitsch schlitz irony af flexitarian.`,
         link: 'components',
     },
     {
@@ -42,7 +39,6 @@ const categories = [
         image:
             'https://images.unsplash.com/photo-1594063788908-2ee05db0ec48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80',
         price: 9.99,
-        desc: `I'm baby direct trade farm-to-table hell of, YOLO readymade raw denim venmo whatever organic gluten-free kitsch schlitz irony af flexitarian.`,
         link: 'accessories',
     },
 ];
@@ -128,4 +124,23 @@ const laptops = [
     },
 ];
 // LAPTOP BRAND
-module.exports = { categories, laptops, home };
+const apple = [
+    {
+        id: 13,
+        name: 'Macbook Air',
+        heroHeadline: 'Power is in the Air.',
+        heroContent: `Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster.
+     GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery
+     life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go.`,
+        price: `From $999`,
+    },
+    {
+        id: 14,
+        name: 'Macbook Pro',
+        heroHeadline: 'All systems Pro.',
+        heroContent: `The Apple M1 chip gives the 13‑inch MacBook Pro speed and power beyond belief. With up to 2.8x CPU performance.
+        Up to 5x the graphics speed. Our most advanced Neural Engine for up to 11x faster machine learning. And up to 20 hours of
+        battery life — the longest of any Mac ever. It’s our most popular pro notebook, taken to a whole new level.`,
+    },
+];
+module.exports = { categories, laptops, home, apple };
