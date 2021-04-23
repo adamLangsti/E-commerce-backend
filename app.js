@@ -13,6 +13,9 @@ app.use('/', home);
 app.use('/categories', categoryList);
 app.use('/laptops', laptops);
 app.use('/apple', apple);
+app.get('/contact', (req, res) => {
+    res.send('Contact page');
+});
 
 app.listen(5000, () => {
     console.log('Server listening on port 5000...');
