@@ -171,6 +171,7 @@ const apple = [
 ];
 const macbook = [
     {
+        id: 16,
         name: 'Macbook Air',
         image:
             'https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
