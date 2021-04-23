@@ -1,4 +1,10 @@
-const { categories, apple, home, laptops } = require('../components/data');
+const {
+    categories,
+    apple,
+    home,
+    laptops,
+    macbook,
+} = require('../components/data');
 
 const getCategories = (req, res) => {
     res.status(200).send(categories);
@@ -15,5 +21,14 @@ const getHome = (req, res) => {
 const getLaptops = (req, res) => {
     res.status(200).send(laptops);
 };
+const getMacbookAir = (req, res) => {
+    res.status(200).send(macbook);
+};
 
-module.exports = { getCategories, getApple, getHome, getLaptops };
+module.exports = {
+    getCategories,
+    getApple,
+    getHome,
+    getLaptops,
+    getMacbookAir,
+};

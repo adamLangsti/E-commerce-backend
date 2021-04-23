@@ -143,6 +143,7 @@ const apple = [
      GPU speeds up to 5x faster. Our most advanced Neural Engine for up to 9x faster machine learning. The longest battery
      life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go.`,
         price: `From $999`,
+        link: 'macbook',
     },
     {
         id: 14,
@@ -154,6 +155,7 @@ const apple = [
         Up to 5x the graphics speed. Our most advanced Neural Engine for up to 11x faster machine learning. And up to 20 hours of
         battery life — the longest of any Mac ever. It’s our most popular pro notebook, taken to a whole new level.`,
         price: `From $1099`,
+        link: 'macbook-pro',
     },
     {
         id: 15,
@@ -164,6 +166,18 @@ const apple = [
         heroContent: `M1 and Big Sur.
         With great power comes great capability.`,
         price: `From $1299`,
+        link: 'imac',
     },
 ];
-module.exports = { categories, laptops, home, apple };
+const macbook = [
+    {
+        name: 'Macbook Air',
+        image:
+            'https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        heroHeadline: `Up to 9x faster.14 Even for a 16‑core Neural Engine, that’s a lot to process. Apps on MacBook Air can
+        use machine learning (ML) to automatically retouch photos like a pro, make smart tools such as magic wands and audio
+        filters more accurate at auto‑detection, and so much more. That’s not just brain power — that’s the power of a full
+        stack of ML technologies.`,
+    },
+];
+module.exports = { categories, laptops, home, apple, macbook };
